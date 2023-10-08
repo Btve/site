@@ -19,27 +19,27 @@ type TestimonialT = {
 const TestimonialA: TestimonialT[] = [
   {
     photo: "/assets/pfp1.png",
-    name: "Rayhan Curran",
+    name: "Ava",
     description:
       "Working with Beautive has been a game-changer for me! They've helped me boost my audience and earnings with their killer social media strategies. I'm overjoyed with the results!",
   },
   {
     photo: "/assets/pfp2.jpeg",
-    name: "Kayley Frame",
+    name: "Sophia",
     description:
       "Honestly, I can't recommend Beautive enough! Their team really knows their stuff, and they've supercharged my OnlyFans growth. It's been an incredible journey!",
   },
   {
     photo: "/assets/pfp3.jpeg",
-    name: "Gene Whitfield",
+    name: "Jenny",
     description:
       "When I started on OnlyFans, I teamed up with Beautive, and it's been an epic journey. My fan base and earnings are soaring, and I'm so excited about the future!",
   },
   {
     photo: "/assets/pfp4.jpeg",
-    name: "Allan Kim",
+    name: "Kim",
     description:
-      "Since partnering with Beautive, my content has gotten even better and i reach more fans daily. It's like they know exactly what my audience wants. It's been an incredible journey!"",
+      "Since partnering with Beautive, my content has gotten even better and i reach more fans daily. It's like they know exactly what my audience wants. It's been an incredible journey!",
   },
 ];
 
