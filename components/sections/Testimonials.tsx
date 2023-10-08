@@ -21,25 +21,25 @@ const TestimonialA: TestimonialT[] = [
     photo: "/assets/pfp1.png",
     name: "Rayhan Curran",
     description:
-      "Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support",
+      "Working with Beautive has been a game-changer for me! They've helped me boost my audience and earnings with their killer social media strategies. I'm overjoyed with the results!",
   },
   {
     photo: "/assets/pfp2.jpeg",
     name: "Kayley Frame",
     description:
-      "As a business targeting high net worth individuals, we were looking for a slick, cool and mini-malistic design for our website",
+      "Honestly, I can't recommend Beautive enough! Their team really knows their stuff, and they've supercharged my OnlyFans growth. It's been an incredible journey!",
   },
   {
     photo: "/assets/pfp3.jpeg",
     name: "Gene Whitfield",
     description:
-      "The most important part of the Startup Framework is the samples",
+      "When I started on OnlyFans, I teamed up with Beautive, and it's been an epic journey. My fan base and earnings are soaring, and I'm so excited about the future!",
   },
   {
     photo: "/assets/pfp4.jpeg",
     name: "Allan Kim",
     description:
-      "I’ve built my website with Startup just in one day, and it was ready-to-go. ",
+      "Since partnering with Beautive, my content has gotten even better and i reach more fans daily. It's like they know exactly what my audience wants. It's been an incredible journey!"",
   },
 ];
 
