@@ -68,7 +68,7 @@ function StatC(props: { stat: number; text: string; index: number }) {
       <span className="text-5xl">
         ${" "}
         {isInView && (
-          <Counter from={0} to={1.5} duration={1.5 + props.index / 2} />
+          <Counter from={0} to={props.stat} duration={1.5 + props.index / 2} />
         )}{" "}
         M
       </span>
