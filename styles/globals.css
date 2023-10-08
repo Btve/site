@@ -12,7 +12,7 @@ html {
 
 :root {
   --swiper-navigation-size: 40px !important;
-  --swiper-navigation-color: theme("colors.neutral.200");
+  --swiper-navigation-color: theme("colors.custom");
   @screen md {
     --swiper-navigation-top-offset: 92.5%;
     --swiper-navigation-sides-offset: 40%;

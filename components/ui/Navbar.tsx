@@ -28,10 +28,13 @@ const navLinkA: NavLinkT[] = [
 function Navbar() {
   return (
     <nav className="fixed z-[9999] flex h-20 w-full items-center justify-center backdrop-blur-sm">
-      <div  className="flex h-full w-full max-w-[1400px] items-center justify-between px-5">
-        <div className="">
-          <Typography width="5rem" component="img" src="https://assets.zyrosite.com/AzGObb7LwzFWrL50/logo_transparent_black-Yan7PPvbDyfQeVgW.png" />
-        </div>
+      <div className="flex h-full w-full max-w-[1400px] items-center justify-between px-5">
+        <Typography
+          width="4rem"
+          className="aspect-square"
+          component="img"
+          src="https://assets.zyrosite.com/AzGObb7LwzFWrL50/logo_transparent_black-Yan7PPvbDyfQeVgW.png"
+        />
         <ul className="hidden items-center justify-center gap-7 md:flex">
           {navLinkA.map((item, index) => (
             <div key={index}>

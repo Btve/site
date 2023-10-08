@@ -63,25 +63,25 @@ function Testimonials() {
             variants={childrenVar("vertical", "spring")}
           >
             <Swiper
-              className="aspect-video w-full max-w-[1000px]"
+              className="aspect-video w-full rounded-2xl max-w-[1000px]"
               pagination={{ type: "bullets" }}
               navigation={{ enabled: true }}
               spaceBetween={"100px"}
               modules={[Pagination, Navigation]}
             >
-              <SwiperSlide className="aspect-video w-full max-w-[1000px] overflow-hidden rounded-2xl md:rounded-[3rem]">
+              <SwiperSlide className="bg-neutral-950 aspect-video w-full max-w-[1000px] overflow-hidden rounded-2xl md:rounded-[3rem]">
                 <div className="relative aspect-video w-full max-w-[1000px]">
-                  <Image alt="" src={"/assets/idk123.jpeg"} fill />
+                  <Image alt="" className="object-contain" src={"https://i.imgur.com/SgUAMV2.jpg"} fill />
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="aspect-video w-full max-w-[1000px] overflow-hidden rounded-2xl md:rounded-[3rem]">
+              <SwiperSlide className="bg-neutral-950 aspect-video w-full max-w-[1000px] overflow-hidden rounded-2xl md:rounded-[3rem]">
                 <div className="relative aspect-video w-full max-w-[1000px]">
-                  <Image alt="" src={"/assets/idk123.jpeg"} fill />
+                  <Image alt="" className="object-contain" src={"https://i.imgur.com/W3Djr2z.png"} fill />
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="aspect-video w-full max-w-[1000px] overflow-hidden rounded-2xl md:rounded-[3rem]">
+              <SwiperSlide className="bg-neutral-950 aspect-video w-full max-w-[1000px] overflow-hidden rounded-2xl md:rounded-[3rem]">
                 <div className="relative aspect-video w-full max-w-[1000px]">
-                  <Image alt="" src={"/assets/idk123.jpeg"} fill />
+                  <Image alt="" className="object-contain" src={"https://i.imgur.com/7vR5nTq.png"} fill />
                 </div>
               </SwiperSlide>
             </Swiper>
