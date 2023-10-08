@@ -1,10 +1,19 @@
 import { TextField, TextareaAutosize } from "@mui/material";
+import axios from "axios";
 import { useFormik } from "formik";
 import { MuiTelInput } from "mui-tel-input";
 import { useState } from "react";
 import toast from "react-hot-toast";
 
 import * as yup from "yup";
+
+type Form = {
+  email: string;
+  phone: string;
+  instagram: string;
+  telegram: string;
+  message?: string;
+};
 
 const validationSchema = yup.object({
   email: yup
@@ -41,9 +50,29 @@ export const ContactForm = () => {
       message: "",
     },
     validationSchema: validationSchema,
-    onSubmit: (values) => {
+    onSubmit: async (values) => {
       toast.success("Information sent successfully");
       setInformation(values);
+
+      // Perform API request
+      const { data, status } = await axios.post<Form>(
+        '/api/form',
+        values,
+        {
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+        },
+      );
+
+      // Handle API response
+      if(status !== 200) {
+        toast.error("Something went wrong while submitting the form!");
+        return;
+      }
+
+      toast.success("Successfully submited form! We will reach out to you within the next 24 hours ♥️");
       formik.resetForm();
     },
   });
