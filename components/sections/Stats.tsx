@@ -8,11 +8,11 @@ const StatsA: { stat: number; text: string }[] = [
     text: "Generated Revenue Jan",
   },
   {
-    stat: 3,
+    stat: 1.3,
     text: "Generated Revenue Jul",
   },
   {
-    stat: 5,
+    stat: 1.6,
     text: "Generated Revenue Sep",
   },
 ];
