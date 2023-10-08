@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-neutral-100;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+:root {
+  --swiper-navigation-size: 40px !important;
+  --swiper-navigation-color: theme("colors.neutral.200");
+  @screen md {
+    --swiper-navigation-top-offset: 92.5%;
+    --swiper-navigation-sides-offset: 40%;
+  }
+}
+
+/* * {
+  @apply outline-green-500 outline
+} */
