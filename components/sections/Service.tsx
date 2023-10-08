@@ -79,7 +79,7 @@ const ServiceA: ServiceT[] = [
     ),
     title: "Content Creation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+      "Our content creation team specializes in crafting captivating content that engages your audience. From viral social media content to OnlyFans, we ensure your content stands out and reaches the largest possible audience.",
     link: "#contact",
   },
 ];
