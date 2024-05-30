@@ -16,7 +16,7 @@ const navLinkA: NavLinkT[] = [
     link: "#service",
   },
   {
-    text: "succes",
+    text: "success",
     link: "#succes",
   },
   {
