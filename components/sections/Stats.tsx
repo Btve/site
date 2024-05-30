@@ -5,15 +5,15 @@ import { useRef } from "react";
 const StatsA: { stat: number; text: string }[] = [
   {
     stat: 1.5,
-    text: "Generated Revenue Jan",
+    text: "Generated Revenue Feb",
   },
   {
     stat: 1.3,
-    text: "Generated Revenue Jul",
+    text: "Generated Revenue Mar",
   },
   {
     stat: 1.6,
-    text: "Generated Revenue Sep",
+    text: "Generated Revenue Apr",
   },
 ];
 
