@@ -13,7 +13,9 @@ export default function handler(req, res) {
         .addField('Telegram', req.body.telegram)
         .addField('Phone', req.body.phone)
         .addField('Message', req.body.message)
-        .setTimestamp();
+        .setText('<@321531954631671810>')
+        .setTimestamp()
+            .setColor('#00ff00');
         
         // Send webhook message with newly created embed
         hook.send(embed);
