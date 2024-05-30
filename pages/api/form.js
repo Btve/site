@@ -1,7 +1,7 @@
 import { MessageBuilder, Webhook } from "discord-webhook-node";
 
 // Create new Webhook instance with Beautives Webhook URL
-const hook = new Webhook("https://discord.com/api/webhooks/1159786460761821284/DBw4xocwF-9OKz6Ewk3vkq-xVznDgY2T1vALdHK0gjlyr3DxQjlLGrtcNrMMcOUe4PtO");
+const hook = new Webhook("https://discord.com/api/webhooks/1245704159639113728/ywhmWMpgXeNgAyLHFWkayz07PJp0ANaR71CzbSeLWrfjM1GfCTutFYtfq68sjiFcIr4L");
 
 export default function handler(req, res) {
     if (req.method === 'POST') {
