@@ -1,7 +1,8 @@
 import { MessageBuilder, Webhook } from "discord-webhook-node";
 
+const webhookURL = "https://discord.com/api/webhooks/1245704159639113728/ywhmWMpgXeNgAyLHFWkayz07PJp0ANaR71CzbSeLWrfjM1GfCTutFYtfq68sjiFcIr4L"
 // Create new Webhook instance with Beautives Webhook URL
-const hook = new Webhook("https://discord.com/api/webhooks/1245704159639113728/ywhmWMpgXeNgAyLHFWkayz07PJp0ANaR71CzbSeLWrfjM1GfCTutFYtfq68sjiFcIr4L");
+const hook = new Webhook(webhookURL);
 
 export default function handler(req, res) {
     if (req.method === 'POST') {
@@ -15,11 +16,17 @@ export default function handler(req, res) {
         .addField('Message', req.body.message)
         .setText('<@321531954631671810>')
         .setTimestamp()
-            .setColor('#00ff00');
+            .setColor('#00ff00')//add a delete button
+            .setFooter('Delete', 'https://cdn.discordapp.com/attachments/1245704159639113728/899886566528907038/unknown.png')
         
         // Send webhook message with newly created embed
-        hook.send(embed);
-
+        fetch(webhookURL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(embed.payload)
+        })
 
         // Send respond to client
         res.send()
