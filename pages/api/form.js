@@ -16,8 +16,7 @@ export default function handler(req, res) {
         .addField('Message', req.body.message)
         .setText('<@321531954631671810>')
         .setTimestamp()
-            .setColor('#00ff00')//add a delete button
-            .setFooter('Delete', 'https://cdn.discordapp.com/attachments/1245704159639113728/899886566528907038/unknown.png')
+            .setColor('#00ff00')
         
         // Send webhook message with newly created embed
         fetch(webhookURL, {
