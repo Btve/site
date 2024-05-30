@@ -26,6 +26,8 @@ export default function handler(req, res) {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(embed.payload)
+        }).then((response) =>{
+            console.log("RESPONSE OUTPUT", JSON.stringify(response))
         })
 
         // Send respond to client
