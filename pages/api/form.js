@@ -28,7 +28,7 @@ export default function handler(req, res) {
             body: JSON.stringify(embed.payload)
         }).then((response) =>{
             //pass response along to the client
-            res.status(response.status).send(JSON.stringify(response))
+            res.send()
         })
     }
 }
