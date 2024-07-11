@@ -33,7 +33,7 @@ function Navbar() {
           width="4rem"
           className="aspect-square"
           component="img"
-          src="https://assets.zyrosite.com/AzGObb7LwzFWrL50/logo_transparent_black-Yan7PPvbDyfQeVgW.png"
+          src={"/assets/beautiveLogo.jpg"}
         />
         <ul className="hidden items-center justify-center gap-7 md:flex">
           {navLinkA.map((item, index) => (
