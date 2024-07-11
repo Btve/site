@@ -33,7 +33,7 @@ function Navbar() {
           width="4rem"
           className="aspect-square"
           component="img"
-          src={"/assets/beautiveLogo.jpg"}
+          src={"/assets/beautiveLogo.png"}
         />
         <ul className="hidden items-center justify-center gap-7 md:flex">
           {navLinkA.map((item, index) => (
